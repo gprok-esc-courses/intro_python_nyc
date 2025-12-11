@@ -43,3 +43,9 @@ Select (0 - 6):
 
 ### Specifications 
 
+1. A new recipe will recive the next available id, which is the id of the current last recipe plus one. You need to establish a mechanism to find the next id. 
+2. Display the id and the name of each recipe in alphabetical order.
+3. Search by cuisine, category, or ingredient.
+4. The id of a deleted recipe will not be reused.
+5. Display Number of recipes by cuisine, and number of recipes by ingredient.
+6. Ask user for the category and randomly display a recipe of this category.
