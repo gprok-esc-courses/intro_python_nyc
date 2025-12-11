@@ -1,0 +1,21 @@
+id,name,cuisine,difficulty,prep_time,ingredients,category
+1,Spaghetti Carbonara,Italian,Medium,30,"pasta,eggs,bacon,parmesan cheese,black pepper,salt",Dinner
+2,Greek Salad,Mediterranean,Easy,15,"tomatoes,cucumber,feta cheese,kalamata olives,red onion,olive oil,oregano",Lunch
+3,Chocolate Chip Cookies,American,Easy,25,"flour,butter,sugar,brown sugar,chocolate chips,eggs,vanilla extract,baking soda",Dessert
+4,Chicken Stir Fry,Asian,Medium,35,"chicken breast,soy sauce,ginger,garlic,bell peppers,broccoli,rice,sesame oil",Dinner
+5,Pancakes,American,Easy,20,"flour,milk,eggs,butter,sugar,baking powder,vanilla extract,maple syrup",Breakfast
+6,Tacos al Pastor,Mexican,Hard,60,"pork shoulder,pineapple,corn tortillas,cilantro,onion,lime,chili powder,cumin",Dinner
+7,Caesar Salad,Italian,Easy,15,"romaine lettuce,parmesan cheese,croutons,caesar dressing,lemon juice,garlic",Lunch
+8,French Toast,French,Easy,15,"bread,eggs,milk,cinnamon,vanilla extract,butter,powdered sugar",Breakfast
+9,Beef Lasagna,Italian,Hard,90,"lasagna noodles,ground beef,ricotta cheese,mozzarella cheese,tomato sauce,onion,garlic,italian seasoning",Dinner
+10,Guacamole,Mexican,Easy,10,"avocados,lime juice,red onion,tomatoes,cilantro,jalapeno,salt",Snack
+11,Tom Yum Soup,Thai,Medium,40,"shrimp,lemongrass,galangal,lime leaves,fish sauce,chili,mushrooms,tomatoes,lime juice",Dinner
+12,Smoothie Bowl,Modern,Easy,10,"frozen berries,banana,yogurt,honey,granola,chia seeds,fresh fruit",Breakfast
+13,Margherita Pizza,Italian,Medium,45,"pizza dough,tomato sauce,mozzarella cheese,basil,olive oil,salt",Dinner
+14,Hummus,Middle Eastern,Easy,10,"chickpeas,tahini,lemon juice,garlic,olive oil,cumin,paprika",Snack
+15,Pad Thai,Thai,Medium,35,"rice noodles,shrimp,eggs,bean sprouts,peanuts,tamarind paste,fish sauce,lime,garlic",Dinner
+16,Caprese Salad,Italian,Easy,10,"tomatoes,mozzarella cheese,basil,olive oil,balsamic vinegar,salt,black pepper",Lunch
+17,Banana Bread,American,Easy,70,"bananas,flour,sugar,eggs,butter,baking soda,vanilla extract,cinnamon",Dessert
+18,Chicken Quesadilla,Mexican,Easy,20,"flour tortillas,chicken breast,cheese,bell peppers,onion,sour cream,salsa",Lunch
+19,Vegetable Curry,Indian,Medium,45,"potatoes,cauliflower,peas,tomatoes,coconut milk,curry powder,ginger,garlic,onion",Dinner
+20,Oatmeal with Berries,Modern,Easy,10,"oats,milk,honey,mixed berries,cinnamon,almonds",Breakfast
