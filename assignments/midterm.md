@@ -49,3 +49,8 @@ Select (0 - 6):
 4. The id of a deleted recipe will not be reused.
 5. Display Number of recipes by cuisine, and number of recipes by ingredient.
 6. Ask user for the category and randomly display a recipe of this category.
+
+### SUBMISSION
+
+Submit a link to your GitHub repository (or a zip file).   
+Include a README.md file documenting your implementation.
