@@ -1,0 +1,9 @@
+white,blue,west
+blue,white,east
+blue,yellow,south
+yellow,blue,north
+yellow,red,south
+red,yellow,north
+red,green,east
+green,red,west
+green,none,exit
