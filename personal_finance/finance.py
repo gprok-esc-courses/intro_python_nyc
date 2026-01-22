@@ -30,6 +30,24 @@ def add_expense(next_id):
     expense = [str(next_id), d, category, amount]
     return expense
 
+def by_category(data):
+    categories = {}
+    for row in data:
+        if row[2] in categories:
+            categories[row[2]] += float(row[3])
+        else:
+            categories[row[2]] = float(row[3])
+    for cat in categories:
+        total = round(categories[cat], 1)
+        print(f"{cat}: {total}")
+
+def save_data(data):
+    file = open('finance.csv', 'w')
+    file.write('id,date,category,amount\n')
+    for row in data:
+        file.write(f"{row[0]},{row[1]},{row[2]},{row[3]}\n")
+    file.close()
+    print("Data saved into the file")
 
 data = load_data()
 next_id = int(data[-1][0]) + 1
@@ -44,8 +62,9 @@ while choice != 0:
     elif choice == 2:
         view_expenses(data) 
     elif choice == 3:
-        pass
+        by_category(data)
     elif choice == 0:
-        pass 
+        save_data(data)
+        print("Bye!") 
     else:
         print("ERROR: Wrong choice.")
