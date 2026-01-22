@@ -15,6 +15,7 @@ def menu():
     print("1. Add Expense")
     print("2. View Expenses")
     print("3. Expenses by category")
+    print("4. Delete expense")
     print("0. Exit")
     choice = int(input("Choose: "))
     return choice
@@ -49,6 +50,14 @@ def save_data(data):
     file.close()
     print("Data saved into the file")
 
+def get_expense_position(data):
+    id = input("Give expense ID to be deleted: ")
+    for index in range(0, len(data)):
+        row = data[index]
+        if row[0] == id:
+            return index 
+    return None
+
 data = load_data()
 next_id = int(data[-1][0]) + 1
 choice = -1
@@ -63,6 +72,12 @@ while choice != 0:
         view_expenses(data) 
     elif choice == 3:
         by_category(data)
+    elif choice == 4:
+        index = get_expense_position(data)
+        if index is not None:
+            data.pop(index)
+        else:
+            print("Id not found")
     elif choice == 0:
         save_data(data)
         print("Bye!") 
